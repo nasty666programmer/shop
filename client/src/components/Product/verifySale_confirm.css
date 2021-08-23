@@ -1,0 +1,10 @@
+.container_sale_product {
+    background-color: red;
+    margin: 1rem;
+    width: 25%;
+}
+
+.main_container {
+    display: flex;
+    
+}

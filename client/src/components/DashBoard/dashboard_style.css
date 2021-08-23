@@ -1,0 +1,87 @@
+.container_dashboard {
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.wrapper_block {
+    display:flex;
+    flex-direction: row;
+    background-color: #eceaea;
+    border-radius: 10%;
+    width:25rem;
+    height:25rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.main_dashboard { /* in ./pages/DashBoard*/
+    padding: 2rem;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.header_dashboard {
+    padding-top: 1rem;
+}
+
+.wrapper_profile {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.size_icons {
+    transform: scale(6.0);
+}
+
+.avatar_dashboard {
+    height: 65%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:2rem;
+}
+
+.about_block {
+    text-align: center;
+    padding-top:1rem;
+}
+
+.btn_profile {
+    border-radius:5%;
+    color:black;
+    background-color: blue;
+    width: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_profile > a {
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.carousel {
+    display:flex;
+    padding-left: 2rem;
+    padding-bottom: .5rem;
+}
+
+.wrapper-carousel {
+    width:100%;
+}
+

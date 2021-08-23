@@ -1,0 +1,89 @@
+.container_sign-in {
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     margin-top: 3rem;
+}
+
+.wrapper_sign-in{
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    width: 50%;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.field > input{
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+}
+
+.field {
+    padding:1rem;
+}
+
+.btn_sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_sign > button {
+    height:2rem;
+    width:6rem;
+    border-radius: 1rem;
+    border:none;
+    background-color: green;
+    color:white;
+
+}
+
+.btn_sign_reg > button {
+    height:100%;
+    padding: 0.5rem;
+    width:100%;
+    border:none;
+    background-color: green;
+    color:white;
+    border-radius: 2rem;
+}
+
+.icon_name {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+    float: left;
+  }
+  
+  .icon_name + .name_input {
+    padding-left: 2rem;
+  }
+  
+  .name_input:focus {
+    outline: none;
+  }
+  
+  .name_input {
+    height: 2rem;
+    border:1px gray solid;
+    border-radius: 1rem;
+  }
+  
+  .height_block {
+    height: 10%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+

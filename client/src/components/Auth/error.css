@@ -1,0 +1,43 @@
+.error_container {
+    background-color: white;
+    box-shadow: 1px 0px 20px 0px;
+    border-radius:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    padding:5rem;
+}
+
+.info_error {
+    height: 50%;
+}
+
+.select_action_error {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.select_action_error > div > a {
+    text-decoration: none;
+    color:black;
+}
+
+.link_action {
+    border:1px solid gray;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.link_action > a:focus {
+    outline: none;
+}
+
+.link_action:hover {
+    box-shadow: 0px 0px 5px 0px;
+}
